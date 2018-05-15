@@ -1,0 +1,25 @@
+
+		@Config(url="/targetParam/_update?rawPayload=\"v1\"")
+		@Config(url="/targetParam/_update?rawPayload=\"v2\"")
+		private String events_output;
+	
+		@Config(url="<!#this!>/../_replace")
+		@Config(url="<!#this!>/../_get?fn=param&expr=flush()")
+		private String saveButton;
+		
+		@Config(url="<!#this!>/../_get?fn=param&expr=unassignMapsTo()")
+		private String cancelButton;
+		
+		@Config(url="<!#this!>/../.m/_delete")
+		@Config(url="<!#this!>/../_get?fn=param&expr=unassignMapsTo()")	
+		private String deleteButton;
+		
+		@Config(url="<!#this!>/../form/_get?fn=param&expr=unassignMapsTo()")
+		private String addButton;
+	
+		@Config(url="/form/_get?fn=param&expr=assignMapsTo('/.d/<!#this!>/../.m')")
+		private String editLink;
+		
+		@Config(url = "/vpMain/vtMain/addDataModal/vsAddDataModalBody/vfAddDataModalForm/_get?fn=param&expr=assignMapsTo('../../.m/myDataCollection')"),
+	
+	

@@ -1,0 +1,25 @@
+The following technologies are used in the framework.
+
+a) Java 1.8
+b) ByteBuddy: Byte Buddy is a code generation and manipulation library for creating and modifying Java classes during the runtime of a Java application and without the help of a compiler
+c) Netty: Netty is a NIO client server framework which enables quick and easy development of network applications such as protocol servers and clients. It greatly simplifies and streamlines network programming such as TCP and UDP socket server.
+d) Drools: streamlining the build, deploy and loading(utilization) aspects of the system
+e) Activity Integration: Use the current Activiti Designer
+d) Spring Boot - Security, Configuration Processor, Spring Data jpa,
+e) lombok
+f) Docker
+g) Spring Cloud
+h) Swagger
+i) Embedded redis server
+j) ApacheDS Server JNDI
+k) groovy
+l) MongoDB
+m) H2 Database
+n) Reactive-core : Reactive programming is about building asynchronous, non-blocking, and event-driven applications that can easily scale.
+o) Query DSL : Querydsl defines a general statically typed syntax for querying on top of persisted domain model data. JDO and JPA are the primary integration technologies for Querydsl. This guide describes how to use Querydsl in combination with JPA.
+p) UI -->   Node, NPM, Angular  
+q) Testing Framework: JUnit, Mockito
+r) Build ->  Maven
+s) Validation ->  java validation
+t) SiteMesh->: Webpage decoration framework
+u) UI Testing-> Protractor
